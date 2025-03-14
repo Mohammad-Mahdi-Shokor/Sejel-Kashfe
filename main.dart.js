@@ -81063,17 +81063,18 @@ else{m=n.ahQ(d)
 n=J.b1(n.f,d)
 n.toString
 n=""+B.c.aC(m/J.bP(n)*100)+"%"}q=A.cy(A.atn(A.dd(A.a([A.cn(n,e,e,e,e,B.QG,e,e),B.T1],o),B.G,B.ab,B.L)),p,q)
-n=A.cy(e,e,a1*0.05)
+n=a1*0.05
+m=A.cy(e,e,n)
 s=s?a1*0.2:a1*0.38
-s=A.hA(A.a([q,n,A.cy(A.atn(A.e3(A.hA(A.a([A.e3(A.dd(A.a([A.cn(""+a6.i4(c.gdY(),b).WA(d),e,e,e,e,B.QW,e,e),B.SZ],o),B.G,B.bj,B.L),e,e)],o),B.G,B.bj,B.L),e,e)),p,s)],o),B.G,B.bj,B.L)
+s=A.hA(A.a([q,m,A.cy(A.atn(A.e3(A.hA(A.a([A.e3(A.dd(A.a([A.cn(""+a6.i4(c.gdY(),b).WA(d),e,e,e,e,B.QW,e,e),B.SZ],o),B.G,B.bj,B.L),e,e)],o),B.G,B.bj,B.L),e,e)),p,s)],o),B.G,B.bj,B.L)
 p=A.jS(20)
 b=$.nv().h(0,d)[0]
 c=a1>800?11:5
 q=A.a([],o)
-for(n=a1>1000,m=a1*0.04,l=a1>780,k=a1*0.032,j=0;j<$.ap3().h(0,d).length;++j){if(a3[j]){i=a0?100:50
+for(m=a1>1000,l=a1>780,k=a1*0.032,j=0;j<$.ap3().h(0,d).length;++j){if(a3[j]){i=a0?100:50
 i=new A.iV(e,B.k,A.arW(j,d),i,e)}else{i=a0?100:50
-i=new A.HA(B.A6,new A.iV(e,B.k,A.arW(j,d),i,e),e)}if(!a3[j]){h=l?k:m
-g=n?10:4
+i=new A.HA(B.A6,new A.iV(e,B.k,A.arW(j,d),i,e),e)}if(!a3[j]){h=l?k:n
+g=m?10:4
 f=a[j]
 h=A.atr(B.lW,g,f,B.IO,h)}else h=B.yh
 q.push(new A.c1(B.fo,new A.kY(B.M,B.bc,B.J,A.a([i,h],o),e),e))}return A.e3(A.dd(A.a([B.hy,r,B.ye,s,B.ye,A.Ib(A.de(B.M,A.aq1(q,new A.As(c,10,10,1)),B.t,e,e,new A.cq(b,e,e,p,e,e,B.ag),e,a2*0.34,e,e,e,e,a1*0.8),B.Z),B.yd],o),B.G,B.bj,B.L),e,e)}}
